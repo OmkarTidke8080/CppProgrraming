@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+int Addition(int No1, int No2)
+{
+    int Ans = 0;
+    Ans = No1 + No2;
+    return 0;
+}
+int main()
+{
+    int A = 10, B = 20;
+    int Ret  = 0;
+
+   Ret = Addition(A,B);
+
+   cout<<"additon is :"<<Ret<<"\n";
+
+    return 0;
+}
